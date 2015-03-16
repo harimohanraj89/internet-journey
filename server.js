@@ -65,7 +65,7 @@ app.get('/browser', function(req, res) {
 });
 
 app.get('/html', function(req, res) {
-  var response = '<p>You made a <strong>GET request to the path "/browser"</strong>.<p>\n' +
+  var response = '<p>You made a <strong>GET request to the path "/html"</strong>.<p>\n' +
                  '<pThis is the server\'s response to such a request.<p>\n' +
                  '<hr>\n' +
                  '<h3>This is heading!</h3>\n' +
